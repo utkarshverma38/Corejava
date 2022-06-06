@@ -10,7 +10,7 @@ public class HelloWithThread extends Thread {
 	
  public void run () {
 
-	 for(int i=0;i<500;i++) {
+	 for(int i=0;i<50;i++) {
 		 System.out.println(i+" Hello " +name);
 	 }
 	 
